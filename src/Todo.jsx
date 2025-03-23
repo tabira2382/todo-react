@@ -13,7 +13,9 @@ export const Todo = () => {
     setTodoText("");
   }
   const onClickDelete = (index) => {
-    alert(index);
+    const newTodos = [...incompleteTodos];
+    newTodos.splice(index, 1);
+    setIncompleteTodos(newTodos);
   }
   return(
     <>
