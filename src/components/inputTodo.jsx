@@ -10,4 +10,4 @@ export const InputTodo = (props) => {
         <button onClick={onClick}>追加</button>
       </div>
   );
-};  
+}; 
